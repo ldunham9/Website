@@ -1,0 +1,170 @@
+<!DOCTYPE>
+<html lang="en">
+     <head>
+        <title>Halloween Recipies</title>
+    
+        <style>
+            .navbar{
+                overflow: hidden;
+                background-color: orangered;
+                font-family: sans-serif;
+            }
+            
+            .navbar a{
+                float: left;
+                font-size: 20px;
+                color: white;
+                width: 22%;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .dropdown{
+                float: left;
+                overflow: hidden;
+            }
+            
+            .dropdown .dropbtn{
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            
+            .navbar a:hover, .dropdown:hover, .dropbtn{
+                background-color: purple;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1; 
+            }
+            
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+        <p class="aligncenter">
+            <img src="images/halloween.gif" height="auto" width="auto" alt="This is halloween" class="center">
+        </p>
+        <style>
+            .aligncenter{
+                text-align: center;
+            }
+        </style>
+        <style>
+            body{
+                background-color:black;
+            }
+        </style>
+        
+        <style>
+            .column{
+                float: left;
+                width: 67.5%;
+                padding: 5px;
+                margin: 10px;
+                background-color: gray;
+            }
+            .columnTwo{
+                float: left;
+                width: 330px;
+                padding: 5px;
+                margin: 10px;
+                background-color: gray;
+            }
+            
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+        <style>
+            p.a{
+                font: 30px arial, sans-serif;
+                color: white;
+            }
+            p.b{
+                font: 40px serif;
+                color: white;  
+            }
+            p.c{
+                font: 20px serif;
+                color: white;
+            }
+            p.d{
+                font: 30px serif;
+                color: white;
+            }
+            
+            .maintag{
+                width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px;
+                align-content: center;
+                background-color: black;
+            }
+        </style>
+         
+    </head>
+    <body>
+        <main class="maintag">
+            <section class="navbar">
+                <a href="index.html">Home</a>
+                <a href="pageTwo.html" style="background-color: crimson;">Recipies</a>
+                <a href="pageThree.html" >Decorations</a>
+                <a href="INSERT LINK HERE">LinkFour</a>
+            </section> 
+            <section class="row">
+                <section class="column">
+                    <!--Text-->
+                    <p class="b" style="text-align: center">Strawberry Ghosts</p>
+                    <hr style="margin: 10px;">
+                    <p class="d" style="text-decoration: underline;">Ingredients</p>
+                    <ul style="color: white; font: 20px serif;">
+                        <li>1 (16oz) package Vanilla Candiquick Coating</li>
+                        <li>Fresh Strawberries</li>
+                        <li>Mini Chocolate Chips</li>
+                    </ul>
+                    <p class="d" style="text-decoration: underline;">Instructions</p>
+                    <ol style="color: white; font: 20px serif">
+                        <li>Melt Candiquick according to instructions on package</li>
+                        <li>Place large peice of wax or parchment paper on flat surface</li>
+                        <li>Dip strawberries in melted Candiquik Coating, remove and allow the excess coating to pour off onto the wax paper to form the "tail" of the ghost; slide the strawberry back and set on wax paper to dry.</li>
+                        <li>Before coating has set, place two mini chocolate chips on as the eyes. For the mouth, cut off the tip of a mini chocolate chip and place on the strawberry with the bottom side facing up.</li>
+                    </ol>
+                    <br>
+                    <p class="c">Source: <a href="http://blog.candiquik.com/strawberry-ghosts/" target="_blank">Candiquick Blog</a></p>
+                </section>
+                <section class="columnTwo">
+                    <!--Images-->
+                    <img src="images/strawberryGhost.jpg" width="310px" height="auto" alt="Strawberry Ghost" style="padding: 10px; float: right;">
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
